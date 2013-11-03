@@ -1,3 +1,7 @@
+# APN list
+PRODUCT_COPY_FILES += \
+    vendor/kidream/prebuilt/apns-conf.xml:system/etc/apns-conf.xml
+
 PRODUCT_VERSION_MAJOR = 1
 PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 0
