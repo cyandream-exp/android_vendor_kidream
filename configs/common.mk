@@ -21,7 +21,6 @@ else
             KD_EXTRAVERSION := $(shell echo $(KD_EXTRAVERSION) | sed 's/-//')
             KD_EXTRAVERSION := -$(KD_EXTRAVERSION)
 endif
-endif
 else
     KD_BUILDTYPE := NIGHTLY
     KD_EXTRAVERSION :=
