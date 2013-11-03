@@ -1,7 +1,8 @@
 # compile KiDream packages
 PRODUCT_PACKAGES += \
     ControlCenter \
-    xdelta3
+    xdelta3 \
+    su
 
 # APN list
 PRODUCT_COPY_FILES += \
