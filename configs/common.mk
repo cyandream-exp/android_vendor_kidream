@@ -1,3 +1,8 @@
+# compile KiDream packages
+PRODUCT_PACKAGES += \
+    ControlCenter \
+    xdelta3
+
 # APN list
 PRODUCT_COPY_FILES += \
     vendor/kidream/prebuilt/apns-conf.xml:system/etc/apns-conf.xml
