@@ -39,7 +39,7 @@ endif
 
 endif
 
-ifeq ($(filter RELEASE NIGHTLY EXPERIMENTAL,$(KD_BUILDTYPE)),)
+ifeq ($(filter RELEASE NIGHTLY TEST,$(KD_BUILDTYPE)),)
     KD_BUILDTYPE :=
 endif
 
