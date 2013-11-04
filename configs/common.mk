@@ -47,8 +47,7 @@ ifdef KD_BUILDTYPE
  ifdef KD_EXTRAVERSION
             KD_BUILDTYPE := TEST
 else
-            KD_EXTRAVERSION := $(shell echo $(KD_EXTRAVERSION) | sed 's/-//')
-            KD_EXTRAVERSION := -$(KD_EXTRAVERSION)
+            KD_EXTRAVERSION :=
 endif
 else
     KD_BUILDTYPE := NIGHTLY
